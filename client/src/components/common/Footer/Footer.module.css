@@ -1,0 +1,20 @@
+.footer {
+  padding: 2rem;
+  background-color: var(--color-gray-800);
+  color: var(--color-gray-100);
+  font-style: italic;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.col h5 {
+  font-weight: 400;
+}
+
+.col a {
+  text-decoration: none;
+  color: var(--color-gray-500);
+}

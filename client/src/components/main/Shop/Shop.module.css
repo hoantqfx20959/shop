@@ -1,0 +1,115 @@
+.categories {
+  margin: 0 0 2rem 0;
+}
+
+.title,
+.products {
+  margin: 0 !important;
+}
+
+.title {
+  padding: 0.5rem 0;
+  align-items: center;
+}
+
+.title h5 {
+  font-style: italic;
+}
+
+.title input {
+  width: 20rem;
+  height: 2rem;
+  border: 1px solid var(--color-gray-500);
+}
+
+.list {
+  font-style: italic;
+  padding: 0;
+}
+
+.apple {
+  color: var(--color-gray-200);
+  background-color: var(--color-gray-800);
+}
+
+.listDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.listDiv h6 {
+  color: var(--color-gray-800);
+  background-color: var(--color-gray-200);
+}
+
+.list a {
+  text-decoration: none;
+  color: var(--color-gray-500);
+}
+
+.list a:hover {
+  color: var(--color-yellow-500);
+}
+
+.list h6,
+.list a {
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+.actionGroup {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.actionGroup input {
+  color: var(--color-gray-200);
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: italic;
+  width: 3rem;
+  /* padding: 0.15rem 0.25rem; */
+  margin: 0;
+  background-color: var(--color-gray-800);
+}
+
+.btn {
+  padding: 0.25rem;
+  color: var(--color-gray-500);
+  background: none;
+}
+
+.actionGroup input[type='number'] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.actionGroup input[type='number']::-webkit-inner-spin-button,
+.actionGroup input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.items-list {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.itemProduct {
+  width: 18rem;
+  text-align: center;
+}
+
+.itemProduct img {
+  height: 18rem;
+}
+
+.listProduct a {
+  text-decoration: none;
+  color: var(--color-gray-800);
+}
+
+.listProduct :hover,
+.listProduct :active {
+  color: var(--color-yellow-500);
+}

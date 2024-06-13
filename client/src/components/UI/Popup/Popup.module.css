@@ -1,0 +1,65 @@
+.content {
+  padding: 2rem;
+  font-style: italic;
+
+  display: flex;
+
+  position: relative;
+}
+
+.title a {
+  text-decoration: none;
+  color: var(--color-gray-500);
+  padding: 0.3rem 0.8rem;
+  background-color: var(--color-gray-800);
+}
+
+.title a:hover,
+.title a:active {
+  color: var(--color-yellow-500);
+}
+
+.img {
+  text-align: center;
+}
+
+.img img {
+  width: 24rem;
+}
+
+.close {
+  width: 2rem;
+  border: none;
+  background: none;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.icon {
+  margin-right: 0.25rem;
+}
+
+.backdrop {
+  position: fixed;
+
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+
+  z-index: 20;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 75%;
+  background-color: var(--color-gray-100);
+
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}

@@ -1,0 +1,166 @@
+.main {
+  margin: 1rem -12px;
+  justify-content: space-between;
+}
+
+.title {
+  background-color: var(--color-gray-100);
+  padding: 0.3rem;
+}
+
+.titleText {
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.cartTotal {
+  margin: 0 -12px;
+}
+.cartTotal1 {
+  font-style: italic;
+  padding: 2rem;
+  background-color: var(--color-gray-100);
+}
+
+.subTotal {
+  position: relative;
+}
+
+.subTotal::after {
+  content: '';
+  background-color: var(--color-gray-500);
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0.8rem;
+  width: calc(100% - 1.5rem);
+  height: 1px;
+}
+
+.total {
+  font-size: 1.2rem;
+  color: var(--color-gray-800);
+}
+
+.action input {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  font: inherit;
+  padding: 1rem;
+  border: 1px solid var(--color-gray-500);
+}
+
+.action button {
+  width: 100%;
+  height: 3rem;
+  padding: 0 0.5rem;
+  background-color: var(--color-gray-800);
+  color: var(--color-gray-400);
+}
+
+.action button:hover {
+  color: var(--color-yellow-500);
+}
+
+.thead {
+}
+
+.tbody {
+  align-items: center;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.tbody::after {
+  content: '';
+  background-color: var(--color-gray-500);
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0.8rem;
+  width: calc(100% - 1.5rem);
+  height: 1px;
+}
+
+.tbodyImg {
+  text-align: center;
+}
+
+.tbodyImg img {
+  width: 5rem;
+}
+
+.tbodyName {
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.tbodyName p {
+  color: var(--color-gray-800);
+  margin: 0;
+}
+
+.tbodyPrice,
+.tbodyTotal {
+  text-align: center;
+  font-style: italic;
+}
+
+.tbodyAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tbodyAction button {
+  color: var(--color-gray-500);
+  border: none;
+  background: none;
+}
+
+.tbodyAction p {
+  color: var(--color-gray-800);
+  margin: 0 0.5rem;
+  background: none;
+}
+
+.tbodyTotal p,
+.tbodyPrice p {
+  color: var(--color-gray-500);
+  margin: 0;
+}
+
+.tbodyDelete {
+  text-align: center;
+}
+
+.tbodyDelete button {
+  color: var(--color-gray-500);
+  border: none;
+  background: none;
+}
+
+.list {
+  margin-bottom: 2rem;
+}
+
+.list a {
+  font-style: italic;
+  text-decoration: none;
+  color: var(--color-gray-700);
+}
+
+.list a:hover,
+.list a:active {
+  color: var(--color-yellow-500);
+}
+
+.checkout {
+  text-align: end;
+}
+
+.checkout span {
+  border: 1px solid;
+  padding: 0.5rem;
+}

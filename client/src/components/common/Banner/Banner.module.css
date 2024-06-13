@@ -1,0 +1,39 @@
+.banner {
+  background-color: var(--color-gray-100);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.title {
+  margin-left: 2rem;
+  font-style: italic;
+}
+
+.title h4 {
+  margin-bottom: 2rem;
+}
+
+.title a {
+  text-decoration: none;
+  color: var(--color-gray-500);
+  padding: 0.3rem 0.8rem;
+  background-color: var(--color-gray-800);
+}
+
+.title a:hover,
+.title a:active {
+  color: var(--color-yellow-500);
+}
+
+.text {
+  text-align: end;
+}
+
+.text h6 {
+  font-style: italic;
+  color: var(--color-gray-500);
+  margin-right: 5%;
+}
