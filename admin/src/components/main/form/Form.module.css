@@ -1,0 +1,81 @@
+.form {
+  margin-top: 1rem;
+}
+
+.imgInput {
+  width: 100%;
+}
+
+.imgInput input {
+  width: 100%;
+}
+
+.imgArr {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.imgItem {
+  position: relative;
+}
+
+.imgX {
+  line-height: 0.7;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.imgX:hover,
+imgX.button:active {
+  background: var(--color-blue-100);
+  border-color: var(--color-blue-100);
+  color: var(--color-red-700);
+  cursor: pointer;
+}
+
+.imgItem {
+}
+
+.imgItem img {
+  width: 189px;
+  height: auto;
+}
+
+.formItem {
+}
+
+.formRow {
+}
+
+.formCol {
+}
+
+.formColItem {
+  margin-bottom: 0.7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.formAction {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+.formAction button {
+  width: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .imgInput {
+    width: 50%;
+  }
+
+  .imgInput input {
+    width: 97%;
+  }
+}

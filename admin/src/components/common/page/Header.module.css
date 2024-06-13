@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.navItem {
+  flex-basis: 25%;
+  border: 1px var(--color-gray-100) solid;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(191, 204, 203, 0.2);
+}
+
+.navItem p {
+  font-size: 16px;
+}
+
+.navItemI {
+  display: flex;
+  justify-content: end;
+}
+
+.navItem i {
+  margin: 0.2rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+}

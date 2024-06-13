@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 15%;
+}
+
+.navbar div ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+}
+
+.navbar div a,
+.navbar div button {
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+  display: block;
+  color: var(--color-violet-300);
+}
+
+.navbar div button {
+  border: none;
+  background: none;
+  font-size: 16px;
+}
+
+.navbar div a:hover,
+.navbar div button:hover,
+.navbar div a.active {
+  color: var(--color-lime-600);
+}
