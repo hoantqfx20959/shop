@@ -1,6 +1,6 @@
 const URL = {
-  BASE: 'https://shop-server-2v1f.onrender.com',
-  LOCAL: 'https://shop-server-2v1f.onrender.com',
+  BASE: 'http://localhost:5000/',
+  LOCAL: 'http://localhost:5000/',
 };
 
 export default URL;
